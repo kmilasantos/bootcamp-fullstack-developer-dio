@@ -1,0 +1,30 @@
+<br/>
+<h1>Tipos de Interpolação:</h1><hr>
+<ul>
+    <li>Interpolation</li>
+    <li>Property Binding</li>
+    <li>Event Binding</li>
+    <li>Two-Way Data Binding</li>
+
+    <li>Class Binding</li>
+    <li>Style Binding</li>
+</ul>
+
+<h1>Exemplos:</h1><hr>
+Interpolação de variável: Eu sou {{ text }}
+<br/>
+Interporlação de função: Eu sou {{ retornaNome() }} 
+<br/><br/>
+
+Exemplo 1 - Padrão html: <img src="https://i.pinimg.com/236x/b1/c2/0f/b1c20f56982da0c2117795a91dc437a1.jpg">
+<br/><br/>
+Exemplo 2 - Interpolação: <img src="{{ imgUrl }}">
+<br/><br/>
+Exemplo 3 - Propriedade: <img [src] = "imgUrl" [alt]="imgDesc">
+<br/><br/>
+Exemplo 4 - Evento (button): <button (click)="clicou(input.value)">Clique aqui</button>
+<br/><br/>
+Exemplo 5 - Evento (input): <input #input (keyup)="clicou(input.value)">
+<br/><br/>
+Exemplo 6 - Two-Way: <input type="text" class="form-control w-50" [(ngModel)]="textInput">
+<p class="text-default">{{ textInput }}</p>
