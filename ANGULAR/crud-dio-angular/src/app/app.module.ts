@@ -21,6 +21,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { PipesExampleComponent } from './pages/pipes-example/pipes-example.component';
+import { UpperCasePipe } from '@angular/common';
+import { PrintListPipe } from './pipe/print-list.pipe';
 
 
 
@@ -33,6 +36,8 @@ import { MatIconModule } from '@angular/material/icon';
     DataBindingComponent,
     TodoListComponent,
     TodoItemComponent,
+    PipesExampleComponent,
+    PrintListPipe,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +53,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [UpperCasePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
