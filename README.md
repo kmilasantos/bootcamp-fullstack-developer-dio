@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/47782228/183431671-c2ce5105-1760-4cc1-ba5a-a4aa25b4d3e7.png" width="250" alt="logo-bootcamp"></br>
-Este repositório contém todos os exercícios práticos realizados em aula durante o Santander Bootcamp Fullstack Developer da </br><b>Digital Innovation One Inc.</b>.
+Este repositório contém todos os exercícios práticos realizados em aula durante o Santander Bootcamp Fullstack Developer da <b>Digital Innovation One Inc.</b>.
 </div>
 
 </br>
